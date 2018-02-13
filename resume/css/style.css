@@ -1,9 +1,78 @@
-h1 {
-  color: purple;
-  font-family: sans-serif;
+/*
+Create 2 links
+Set the color of the links and remove the underline. - 10 points
+Style :hover effect. - 10 points
+Use one or two custom fonts - 10 points
+Make sure you use an external stylesheet using the tag. - 10 Points
+Style 2 elements (ie a, p, b, address, etc) - 10 points
+Create and use 2 id - 20 points
+Create and use 5 classes, use the classes more than once - 25 points
+Make sure you validate your work (css validator, html validator) - 5 points
+google fonts
+pantone site for color
+*/
+
+body {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 80px
+  margin: 10;
 }
 
-.paragraph {
-  color: purple;
-  width: 320px;
+.sectionheader {
+  text-decoration: underline;
+}
+
+.header {
+  font-family: 'Caveat', sans-serif;
+  color:black;
+  font-size: 40px;
+  position: fixed;
+}
+
+.column {
+  float: left;
+}
+
+.left {
+  width: 50%;
+  margin: 10;
+  padding: 100px;
+}
+
+.right {
+  float: right;
+  margin-top: -740px;
+  width: 50%;
+  padding: 0px;
+}
+
+h1 {
+  color:pink;
+  background-color: black
+  white-space: pre-line;
+  text-align: center;
+  margin: 0;
+}
+
+h3 {
+  text-decoration: bold;
+}
+
+a {
+  text-decoration: none;
+  font-style: italic;
+  color: black;
+  font-style: italic;
+}
+
+a:hover {
+  color:pink;
+}
+
+.footer {
+  text-align: left;
+}
+
+#contact {
+  font-family: 'Barlow Condensed', sans-serif;
 }
