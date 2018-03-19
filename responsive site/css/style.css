@@ -4,9 +4,9 @@
   width: 960px;
   margin: 0 auto;
   grid-gap: 10px;
-  grid-template-areas: "header"
+  /* grid-template-areas: "header"
                         "main"
-                        "footer";
+                        "footer"; */
   grid-template-rows: repeat(autofill, minmax(300px, 1fr));
   max-width: 100%;
   /* grid-template-columns: 960px;  */
@@ -77,8 +77,8 @@ object-fit: cover;
 height: 300px; */
 /* height: 100%; */
 border-radius: 8px;
-width: 75%
-height: auto;
+/* width: 75%
+height: auto; */
 }
 
  /* .box:hover {
@@ -152,11 +152,10 @@ max-width: 100%;
 .pic {
 width: 85%;
 height: auto;
-
 }
 
 .cute {
-  width: 100%
+  width: 100%;
   height: 100%;
 }
 
@@ -188,3 +187,9 @@ color: white;
 h4:hover {
   color: white;
 }
+
+.chairs {
+  width: 85%;
+  height: auto;
+  font-size: 16px;
+  }
