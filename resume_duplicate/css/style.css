@@ -1,0 +1,115 @@
+/*
+Create 2 links
+Set the color of the links and remove the underline. - 10 points
+Style :hover effect. - 10 points
+Use one or two custom fonts - 10 points
+Style 2 elements (ie a, p, b, address, etc) - 10 points
+Create and use 2 id - 20 points
+Create and use 5 classes, use the classes more than once - 25 points
+Make sure you validate your work (css validator, html validator) - 5 points
+Make sure you use an external stylesheet using the tag. - 10 Points
+*/
+
+body {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 80px
+  padding: 0;
+  margin: 0;
+}
+
+#color {
+  background-color: pink;
+  height: 20px;
+  width: 100%;
+  position: fixed;
+}
+
+.header {
+  margin-top: 10px;
+  font-family: 'Caveat', sans-serif;
+  color:black;
+  font-size: 40px;
+  padding-left: 10px;
+  display: inline-block;
+  width: 960px;
+}
+
+.sectionheader {
+  line-height: 5px;
+  color: black;
+  font-width: bold;
+}
+
+.column {
+  float: left;
+}
+
+.left {
+  width: 40%;
+  /* margin: 10px; */
+  /* margin-top: 20px; */
+  padding-left: 50px;
+}
+
+.right {
+float: right;
+ width: 60%;
+ margin-left: 10px;
+ margin-top: -580px;
+}
+
+h1 {
+  color:pink;
+  background-color: black
+  white-space: pre-line;
+  text-align: center;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  font-style: italic;
+  color: black;
+  font-style: italic;
+}
+
+a:hover {
+  color:pink;
+}
+
+/* .footer {
+  text-align: left;
+} */
+
+#contact {
+  font-family: 'Barlow Condensed', sans-serif;
+  text-align: right;
+  padding-right: 10px;
+  display: inline-block;
+  font-size: 20px;
+  margin-left: 350px;
+}
+
+#name{
+  display:inline-block;
+}
+
+.date {
+  line-height: 10px
+  color: gray;
+}
+
+ul.custom {
+  list-style-type: none;
+}
+
+li::before {
+  content: "•"; color: pink;
+  display: inline-block; width: 1em;
+  margin-left: -1em
+}
+
+.li {
+    line-height: 5px;
+    text-decoration: none;
+}
