@@ -1,0 +1,42 @@
+img {
+  width: 350px;
+  margin: 0;
+  padding: 0;
+  height: 500px;
+  position: center;
+  padding-left: 250px;
+  padding-right: 50px;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+  font-family: 'Pacifico', 'sans-serif';
+   color: pink;
+}
+
+h2, h4 {
+  font-family: 'Gloria Hallelujah', 'sans-serif';
+}
+
+h3 {
+  font-family: 'Gloria Hallelujah', 'sans-serif';
+  text-decoration: underline;
+}
+
+
+ul {
+    margin: 0.75em 0;
+    padding: 0 1em;
+    list-style: none;
+    font-family:'Gloria Hallelujah', 'sans-serif';
+}
+
+li, p {
+  font-family:'Gloria Hallelujah', 'sans-serif';
+}
+
+a {
+  text-decoration: none;
+  color: purple;
+}
