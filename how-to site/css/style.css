@@ -8,7 +8,8 @@ img {
   padding-right: 50px;
 }
 
-h1 {
+
+#title {
   font-size: 60px;
   text-align: center;
   font-family: 'Pacifico', 'sans-serif';
@@ -39,4 +40,8 @@ li, p {
 a {
   text-decoration: none;
   color: purple;
+}
+
+#toggle {
+  font-family:'Gloria Hallelujah', 'sans-serif';
 }
